@@ -6,16 +6,20 @@ using namespace std;
 
 void menu()
 {
-    int op do
+    int op;
+    do
     {
 
+        system("color 02");
+        system("cls");
         cout << "=======================Bienvenido a mi tercera prueba===================" << endl;
         cout << "1. Ver si un numero es impar o impar " << endl;
-        cout << "2, ver el calculo factorial de un numero " << endl;
+        cout << "2. ver el calculo factorial de un numero " << endl;
         cout << "3. Salir " << endl;
-        cin >> op
+        cin >> op;
+        
 
-            switch (op)
+        switch (op)
         {
         case 1:
 
@@ -33,6 +37,6 @@ void menu()
             cout << "Opcion invalida " << endl;
             break;
         }
-    }
-    while (op != 3)
+        system("pause");
+    } while (op != 3);
 }
