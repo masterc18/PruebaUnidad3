@@ -19,7 +19,8 @@ void Numeros()
         }
         else
         {
-            cout << "Es impar " << endl;
+            cout << "El numero es impar" << endl;
         }
     }
+    
 }
