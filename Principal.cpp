@@ -3,8 +3,9 @@
 
 using namespace std;
 
-int main(int argc, char const *argv[])
+int main()
 {
     menu();
+
     return 0;
 }
