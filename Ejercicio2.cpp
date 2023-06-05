@@ -16,6 +16,7 @@ void CalcularFactorial()
     {
         factorial = factorial * i;
     }
-    cout << factorial;
+    cout <<"El factorial de " << num << " = " << factorial;
 }
+
 
